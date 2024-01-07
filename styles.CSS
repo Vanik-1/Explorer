@@ -1,0 +1,14 @@
+:root{
+--accent-color:#8D4FDB;
+--footer-text-color:#8B8B8B;
+--subtitles-color:#A9AFB3;
+--main-color:#333333;
+--white-color:#FFFFFF;
+--body-background-color:rgba(0, 0, 0, 0.40);
+}
+
+body(
+font-family: Montserrat;
+font-weight: 400;
+back-ground-color: var (body-background)
+)

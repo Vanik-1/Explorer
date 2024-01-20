@@ -1,14 +1,66 @@
 :root {
     --accent-color: #8D4FDB;
-    --footer-text-color: #8B8B8B;
+    --footeer-text-color: #8B8B8B;
     --subtitles-color: #A9AFB3;
-    --main-color: #333333;
+    --main-color: #000000;
     --white-color: #FFFFFF;
-    --body-background-color: rgba(0, 0, 0, 0.40);
+    --body-background
 }
 
-body 
-(
+body {
     font-family: Montserrat;
     font-weight: 400;
-    back-ground-color: var (body-background)) 
+    font-style: normal;
+}
+
+.nav-link {
+    color: var(--white-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.author,
+.article-title {
+    color: var(--white-color)
+}
+
+.article-title {
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.featured {
+    font-family: Lato;
+}
+
+.featured-subtitle {
+    font-size: 23px;
+    color: var(--subtitles-color);
+}
+
+.article-decription {
+    color: var(--main-color);
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.article-link {
+    color: var(--accent-color);
+    Font-Family: Lato;
+    font-size: 17px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.read-more {
+    background-color: var (--section-background)
+}
+
+.read-more-title {
+    text-align: center;
+    font-size: 30px;
+    Line-height: 36px;
+}
+
+.read-more-button {}
